@@ -6,7 +6,7 @@ import openai
 import streamlit as st
 from streamlit_chat import message
 
-openai.api_key = "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"
+openai.api_key = "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"
 # Creating a function which will generate the calls from the api
 def generate_response (prompt):
     completions = openai.Completion.create(
