@@ -15,6 +15,7 @@
     <WebBrowserPort>4449</WebBrowserPort>
     <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
     <WebBrowserUrl>localhost:4449</WebBrowserUrl>
+    <SuppressEnvironmentCreationPrompt>True</SuppressEnvironmentCreationPrompt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
